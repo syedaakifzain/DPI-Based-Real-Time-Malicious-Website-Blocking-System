@@ -1,9 +1,6 @@
 # DPI-Based-Real-Time-Malicious-Website-Blocking-System
 Deep Packet Inspection (DPI) based cybersecurity system that analyzes network traffic in real time to detect and block malicious websites. It inspects packet payloads, tracks connections, and applies security rules to prevent access to harmful domains and suspicious network activity.
 
-
-# DPI-Based Real-Time Malicious Website Blocking System
-
 ## Overview
 
 This project implements a **Host-Based Deep Packet Inspection (DPI) Security Platform** capable of monitoring network traffic in real time and blocking connections to malicious websites using a centralized threat intelligence database.
@@ -166,4 +163,25 @@ Match Found → Connection Blocked
 
 ---
 
+# Learning Outcomes
 
+This project demonstrates practical concepts in:
+
+* Network security
+* Packet inspection
+* Intrusion detection techniques
+* Cyber threat intelligence
+* Endpoint security architecture
+
+---
+
+# Disclaimer
+
+This project is intended for **educational and research purposes only**. It should not be used to monitor networks without proper authorization.
+
+---
+
+# Author
+
+Syed Aakif Zain
+Cybersecurity Project
