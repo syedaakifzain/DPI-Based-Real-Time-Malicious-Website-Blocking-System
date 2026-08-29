@@ -1140,3 +1140,23 @@ GitHub:
 
 ---
 
+# ⭐ Acknowledgement
+
+This project was developed as an educational cybersecurity and network-security implementation to explore practical applications of:
+
+* Deep Packet Inspection
+* Network traffic analysis
+* Threat intelligence
+* Domain detection
+* TLS SNI analysis
+* Rule-based security
+* Endpoint protection
+
+---
+
+# 📜 License
+
+Add an appropriate open-source license before distributing the project publicly.
+
+Recommended options include:
+
