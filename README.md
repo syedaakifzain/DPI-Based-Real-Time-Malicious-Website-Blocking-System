@@ -809,3 +809,250 @@ The system can serve as a foundation for several cybersecurity applications.
 
 Detect and block known phishing domains.
 
+### 🦠 Malware Protection
+
+Prevent connections to known malware-hosting infrastructure.
+
+### 📡 Network Monitoring
+
+Observe and analyze endpoint network activity.
+
+### 🤖 Command-and-Control Detection
+
+Identify connections to suspicious infrastructure associated with malware activity.
+
+### 🏢 Enterprise Endpoint Security
+
+Provide an endpoint-level security layer for organizational devices.
+
+### 🎓 Cybersecurity Education
+
+Demonstrate:
+
+* Packet inspection
+* Network protocols
+* DNS security
+* TLS
+* Threat intelligence
+* Rule-based filtering
+* Endpoint protection
+
+### 🔬 Security Research
+
+Provide a platform for experimenting with:
+
+* DPI algorithms
+* Domain reputation
+* Network anomaly detection
+* Threat intelligence
+* Automated blocking
+
+---
+
+# ⭐ Advantages
+
+## Real-Time Analysis
+
+Traffic can be analyzed while network communication is occurring.
+
+## Application-Level Visibility
+
+The system attempts to obtain information beyond basic IP filtering.
+
+## HTTPS Awareness
+
+TLS SNI extraction provides a mechanism for identifying domains in applicable encrypted connections.
+
+## Modular Architecture
+
+The project separates packet parsing, connection tracking, rule management, and domain extraction into dedicated components.
+
+## Offline Testing
+
+PCAP support allows repeatable analysis without relying exclusively on live network traffic.
+
+## Extensible Security Model
+
+The rule-based architecture can be expanded with additional detection techniques.
+
+---
+
+# ⚠️ Limitations
+
+Deep Packet Inspection has inherent limitations, especially with modern encrypted traffic.
+
+### Encrypted Traffic
+
+Strong encryption can prevent inspection of application payloads.
+
+### TLS Privacy Improvements
+
+Modern TLS deployments may hide or reduce the visibility of domain information.
+
+### Dynamic Infrastructure
+
+Malicious websites may rapidly change IP addresses and infrastructure.
+
+### False Positives
+
+A rule-based system may incorrectly classify legitimate domains.
+
+### False Negatives
+
+A malicious domain that is not present in the threat intelligence source may not be detected.
+
+### Performance
+
+Packet-level inspection introduces computational overhead, particularly on high-bandwidth networks.
+
+### Platform Dependencies
+
+Low-level packet capture and blocking functionality can depend on operating-system permissions and networking capabilities.
+
+---
+
+# 🚀 Future Enhancements
+
+The project can be extended significantly.
+
+## 🤖 AI-Based Anomaly Detection
+
+Introduce machine-learning models to identify unusual network behavior.
+
+Possible features:
+
+```text
+Packet frequency
+Connection duration
+Destination reputation
+Domain entropy
+Request frequency
+Traffic volume
+Protocol characteristics
+```
+
+---
+
+## 🌐 Automated Threat Intelligence
+
+Integrate continuously updated threat-intelligence feeds.
+
+Potential sources could provide:
+
+* Malicious domains
+* Malware indicators
+* Phishing URLs
+* Malicious IP addresses
+* Reputation scores
+
+---
+
+## 📊 Real-Time Security Dashboard
+
+A web dashboard could display:
+
+```text
+┌───────────────────────────────────────────────┐
+│              SECURITY DASHBOARD               │
+├───────────────────────────────────────────────┤
+│ Packets Analyzed        125,430               │
+│ Connections             4,821                 │
+│ Threats Detected        37                    │
+│ Domains Blocked         24                    │
+├───────────────────────────────────────────────┤
+│ Recent Security Events                        │
+│                                               │
+│ phishing-domain.com      BLOCKED              │
+│ suspicious-site.net      BLOCKED              │
+│ example.com              ALLOWED              │
+└───────────────────────────────────────────────┘
+```
+
+---
+
+## 🔥 Firewall Integration
+
+Future versions can integrate directly with operating-system firewall frameworks to provide stronger enforcement.
+
+---
+
+## 🧠 Domain Reputation Scoring
+
+Instead of using only:
+
+```text
+ALLOW / BLOCK
+```
+
+the system could calculate:
+
+```text
+Domain Reputation Score: 92/100
+Risk Level: HIGH
+Action: BLOCK
+```
+
+---
+
+## 🔗 Distributed Threat Detection
+
+Multiple endpoint agents could report suspicious activity to a centralized server.
+
+```text
+             Central Threat Server
+                  /     |     \
+                 /      |      \
+                ▼       ▼       ▼
+            Agent 1  Agent 2  Agent 3
+               │        │        │
+               ▼        ▼        ▼
+             Device   Device   Device
+```
+
+This would enable organization-wide threat intelligence sharing.
+
+---
+
+# 📚 Learning Outcomes
+
+This project provides practical exposure to several cybersecurity and networking concepts.
+
+### Networking
+
+* TCP/IP
+* DNS
+* HTTP
+* HTTPS
+* TLS
+* IP addressing
+* Network ports
+* Packet structure
+
+### Cybersecurity
+
+* Deep Packet Inspection
+* Threat intelligence
+* Domain reputation
+* Endpoint security
+* Network monitoring
+* Malicious-domain detection
+* Rule-based filtering
+
+### Python
+
+* Packet processing
+* Modular programming
+* Exception handling
+* Thread-safe programming
+* Network programming
+
+### Security Engineering
+
+* Detection pipelines
+* Security policies
+* Blocking mechanisms
+* Security event logging
+* Threat classification
+
+---
+
