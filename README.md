@@ -1160,3 +1160,14 @@ Add an appropriate open-source license before distributing the project publicly.
 
 Recommended options include:
 
+* MIT License
+* Apache License 2.0
+* GNU GPL v3.0
+
+If this project is primarily intended for academic use, clearly state the permitted usage and redistribution conditions.
+
+---
+
+## ⭐ If you find this project useful
+
+Consider giving the repository a **Star ⭐** and using the project as a starting point for further cybersecurity research.
