@@ -1056,3 +1056,87 @@ This project provides practical exposure to several cybersecurity and networking
 
 ---
 
+# 🧑‍💻 Project Goals
+
+The project demonstrates how a host-based security system can combine multiple cybersecurity concepts into a single detection and enforcement pipeline:
+
+```text
+                NETWORK TRAFFIC
+                       │
+                       ▼
+                PACKET CAPTURE
+                       │
+                       ▼
+              DEEP PACKET INSPECTION
+                       │
+                       ▼
+              PROTOCOL IDENTIFICATION
+                       │
+                       ▼
+              DOMAIN EXTRACTION
+                 ┌─────┴─────┐
+                 │           │
+                HTTP        TLS
+                 │           │
+                 └─────┬─────┘
+                       ▼
+               THREAT ANALYSIS
+                       │
+                       ▼
+                 RULE ENGINE
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+           ALLOW              BLOCK
+              │                 │
+              ▼                 ▼
+          Continue          Log Event
+```
+
+---
+
+# 🔐 Ethical and Legal Disclaimer
+
+This project is intended **strictly for educational, research, and authorized cybersecurity testing purposes**.
+
+Network packet inspection can involve sensitive information.
+
+Do not use this system to:
+
+* Monitor networks without authorization
+* Intercept other users' traffic
+* Inspect private communications without consent
+* Circumvent security controls
+* Deploy blocking mechanisms on systems you do not own or administer
+
+Always obtain appropriate authorization before performing network monitoring or packet inspection.
+
+---
+
+# 📈 Project Significance
+
+This project demonstrates the transition from traditional static filtering toward a more dynamic network-security approach.
+
+Instead of simply asking:
+
+> **"Which IP address is this?"**
+
+the system attempts to answer:
+
+> **"What application-level destination is this traffic associated with, and should that destination be trusted?"**
+
+That distinction is important when building modern network-security systems.
+
+---
+
+# 👨‍💻 Author
+
+## Syed Aakif Zain
+
+**Cybersecurity Project**
+
+GitHub:
+`https://github.com/syedaakifzain`
+
+---
+
